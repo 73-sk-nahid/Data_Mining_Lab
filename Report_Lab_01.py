@@ -1,5 +1,5 @@
 # Write a Python program to find the sum of odd and even numbers from a set of numbers.
-# Input a set of numbers separated by spaces
+print("***Sum of ODD/EVEn numbers***")
 numbers = input("Enter a set of numbers separated by comma: ")
 
 # Split the input string into a list of numbers
@@ -21,4 +21,14 @@ for num in number_list:
 print(f"Sum of even numbers: {sum_even}")
 print(f"Sum of odd numbers: {sum_odd}")
 
+# Write a Python program to Check Triangle is Valid or Not
+print("\n***Check the triangle is valid or not***")
+side1 = int(input("Enter the length of the first side: "))
+side2 = int(input("Enter the length of the second side: "))
+side3 = int(input("Enter the length of the third side: "))
 
+# Check if the sides form a valid triangle
+if side1 + side2 > side3 and side1 + side3 > side2 and side2 + side3 > side1:
+    print("It is a valid triangle.")
+else:
+    print("It is not a valid triangle.")
