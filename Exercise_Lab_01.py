@@ -50,7 +50,7 @@ while True:
     else:
         print("Enter valid mark")
 
-'''# Write a Python program to calculate the sum of three given numbers, 
+# Write a Python program to calculate the sum of three given numbers, 
 # if the values are equal then return three times of their sum. 
 # is even or odd, print out an appropriate message to the user.
 print("\n\n***Sum of 3 number and check equal and odd/even***")
@@ -69,4 +69,4 @@ print(f"Numbers are equal. Three times of their sum is: {multiply}")
 if sum % 2 ==0:
     print("Sum is Even number")
 else:
-    print("Sum is ODD number")'''
+    print("Sum is ODD number")
