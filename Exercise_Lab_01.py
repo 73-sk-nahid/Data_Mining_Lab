@@ -1,3 +1,4 @@
+# 3.5.7
 # Write a Python program to find the largest among three numbers.
 print("***Enter three number for finding the largest one among them***")
 num1 = int(input("Enter 1st number: "))
@@ -58,14 +59,14 @@ a = float(input("Enter 1st number: "))
 b = float(input("Enter 2nd number: "))
 c = float(input("Enter 3rd number: "))
 
-#calculate the sum of three
+# calculate the sum of three
 sum = a + b + c
 print(f"The sum of three number is: {sum}")
-#check if the numbers are equal
+# check if the numbers are equal
 if a == b == c:
     multiply = a*b*c
 print(f"Numbers are equal. Three times of their sum is: {multiply}")
-#check the sum is even or odd
+# check the sum is even or odd
 if sum % 2 ==0:
     print("Sum is Even number")
 else:
