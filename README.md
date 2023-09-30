@@ -1,6 +1,6 @@
 # Data Mining Lab - Basic Python
 
-Welcome to the Data Mining Lab at Green University of Bangladesh, instructed by Rezwanul Haque Sir. This repository contains materials and assignments for Data Mining Lab. 
+Welcome to the Data Mining Lab at Green University of Bangladesh. This repository contains materials and assignments for Data Mining Lab. 
 ## Course Details
 
 - **Instructor:** Rezwanul Haque
@@ -24,6 +24,5 @@ To get started with this lab, follow these steps:
 ## Lab Days Tasks
 1. the first lab, which focuses on basic Python programming. -manual 1: [Lab Manual 01](https://greenedubd-my.sharepoint.com/:b:/g/personal/nahid_201902073_green_ac_bd/EdKtFIxRxi1Esvy8nZf2Ei0Bnl14KCjTrGoxmz1xloqhnA?e=zKtBzV)
 
+## Happy Coding!
 We hope you enjoy learning Python in this Data Mining Lab!
-
-Happy coding!
