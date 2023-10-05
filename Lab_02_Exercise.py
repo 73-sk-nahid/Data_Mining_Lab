@@ -41,3 +41,4 @@ print(f"Sorted numbers are: {sorted_numbers}")
 print(f"The second highest numbe is: {sorted_numbers[-2]}")
 
 # Write a python program to find the factorial of a number using for loop.
+print("\n***Find the factorial of a number***")
