@@ -40,5 +40,22 @@ sorted_numbers = sorted(numbers)
 print(f"Sorted numbers are: {sorted_numbers}")
 print(f"The second highest numbe is: {sorted_numbers[-2]}")
 
-# Write a python program to find the factorial of a number using for loop.
+# Write a python program to find the factorial of a number using for loop
 print("\n***Find the factorial of a number***")
+num = int(input("Enter a number: "))
+factorial = 1
+for i in range(1, num + 1):
+    factorial = factorial* i;
+print(f"The factorial of {num} is: {factorial}")
+
+# Write a python program to generate Fibonacci series
+print("\n***Generate Fibonacci Series***")
+n1 = 0
+n2 = 1
+print("Fibonacci Series:", n1, n2, end=" ")
+for i in range(2, num):
+    n3 = n1 + n2
+    n1 = n2
+    n2 = n3
+    print(n3, end=" ")
+print()
