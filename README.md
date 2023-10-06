@@ -23,6 +23,6 @@ To get started with this lab, follow these steps:
 
 ## Lab Days Tasks
 1. The first lab, which focuses on basic Python programming. [Lab Manual 01](https://greenedubd-my.sharepoint.com/:b:/g/personal/nahid_201902073_green_ac_bd/EdKtFIxRxi1Esvy8nZf2Ei0Bnl14KCjTrGoxmz1xloqhnA?e=zKtBzV)
-2. The second lab, which also focuses on basic Python programming. [Lab Manual 02]()
+2. The second lab, which also focuses on basic Python programming. [Lab Manual 02](https://greenedubd-my.sharepoint.com/:b:/g/personal/nahid_201902073_green_ac_bd/EXQLt_Z_16hEqdrJKvq7R58BsNWkr-QQWHjaye5Sa5yIKQ?e=Spv3tj)
 ## Happy Coding!
 We hope you enjoy learning Python in this Data Mining Lab!
