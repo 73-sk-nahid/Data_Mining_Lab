@@ -1,4 +1,4 @@
-# Exercise 3.1.2
+# Exercise 3.1.5
 # Write a python program to find the sum of odd and even numbers from a set of numbers
 print("***Find the sum of ODD & EVEN Numbers***")
 numbers = [5, 4, 3, 2, 1]
@@ -16,7 +16,7 @@ print(f"Sum of Even_numbers are: {even_sum} \nSum of Odd_numbers are: {odd_sum}"
 
 # Write a python program to find the smallest number from a set of numbers
 print("\n***Find the smallest number***")
-small = 0
+'''small = 0
 for i in numbers:
     if small == 0:
         print(f"Small is null. So, Small number is {small}")
@@ -24,8 +24,19 @@ for i in numbers:
     elif i<small:
         print(f"{i}is smaller then {small}")
         small = i
-print(f"So, Smallest number is: {small}")
-
+print(f"So, Smallest number is: {small}")'''
+temp = 0
+max_size = len(numbers)
+for i in range(0, max_size):
+    for j in range(i+1, max_size):
+        if(numbers[i]>numbers[j]):
+            temp = numbers[i]
+            numbers[i] = numbers[j]
+            numbers[j] = temp
+print("Sorted array is: ")
+for i in range(0, max_size):
+    print(numbers[i], end="")
+print(f"\nSmallest number is: {numbers[0]}")
 # Write a python program to find the sum of all numbers between 50 and 100, which are divisible by 3 and not divisible by 5
 print("***\nSum of 50-100 which is divisible by 3 but not divisible by 5***")
 sum = 0
@@ -34,12 +45,23 @@ for i in range(50, 101):
         sum += i
 print(f"Sum is: {sum} ")
 
-# Write a python program to find the second highest number from a set of numbers
+# Write a python program to find the second-highest number from a set of numbers
 print("\n***Find the second sortest number***")
-sorted_numbers = sorted(numbers)
+'''sorted_numbers = sorted(numbers)
 print(f"Sorted numbers are: {sorted_numbers}")
-print(f"The second highest numbe is: {sorted_numbers[-2]}")
-
+print(f"The second highest numbe is: {sorted_numbers[-2]}")'''
+'''temp = 0
+max_size = len(numbers)
+for i in range(0, max_size):
+    for j in range(i+1, max_size):
+        if(numbers[i]>numbers[j]):
+            temp = numbers[i]
+            numbers[i] = numbers[j]
+            numbers[j] = temp
+print("Sorted array is: ")
+for i in range(0, max_size):
+    print(numbers[i], end="")'''
+print(f"\n2nd largest number is: {numbers[-2]}")
 # Write a python program to find the factorial of a number using for loop
 print("\n***Find the factorial of a number***")
 num = int(input("Enter a number: "))
