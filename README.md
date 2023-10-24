@@ -9,7 +9,7 @@ Welcome to the Data Mining Lab at Green University of Bangladesh. This repositor
 
 ## Contents
 
-In this lab, you will learn and practice about basic Python and Data Mining algorithms.
+In this lab, you will learn and practice about basic Python, Data Visualizations, Data Normalizations and Data Mining algorithms.
 
 ## Getting Started
 
